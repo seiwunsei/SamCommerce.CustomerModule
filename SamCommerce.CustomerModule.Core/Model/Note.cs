@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SamCommerce.Platform.Core.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SamCommerce.CustomerModule.Core.Model
 {
-    public class Note
+    public class Note : AuditableEntity, ICloneable
     {
         public string Title { get; set; }
         public string Body { get; set; }
@@ -22,3 +23,4 @@ namespace SamCommerce.CustomerModule.Core.Model
         #endregion
     }
 }
+

@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29136062-2AF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8C7EA4D6-4B48-47F4-9BF5-E7C313D77411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.CustomerModule.Core", "SamCommerce.CustomerModule.Core\SamCommerce.CustomerModule.Core.csproj", "{A426274D-58A3-4800-A80C-0F6184516012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamCommerce.CustomerModule.Core", "SamCommerce.CustomerModule.Core\SamCommerce.CustomerModule.Core.csproj", "{A426274D-58A3-4800-A80C-0F6184516012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.CustomerModule.Data", "SamCommerce.CustomerModule.Data\SamCommerce.CustomerModule.Data.csproj", "{F4622C3D-4BB1-4730-AAF6-15CBF4AB5A32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{A426274D-58A3-4800-A80C-0F6184516012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A426274D-58A3-4800-A80C-0F6184516012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A426274D-58A3-4800-A80C-0F6184516012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4622C3D-4BB1-4730-AAF6-15CBF4AB5A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4622C3D-4BB1-4730-AAF6-15CBF4AB5A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4622C3D-4BB1-4730-AAF6-15CBF4AB5A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4622C3D-4BB1-4730-AAF6-15CBF4AB5A32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A426274D-58A3-4800-A80C-0F6184516012} = {29136062-2AFD-4BEA-BAFF-65F076E5EB54}
+		{F4622C3D-4BB1-4730-AAF6-15CBF4AB5A32} = {29136062-2AFD-4BEA-BAFF-65F076E5EB54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4938D045-8A06-4DAA-B8F3-B30E777F8411}
