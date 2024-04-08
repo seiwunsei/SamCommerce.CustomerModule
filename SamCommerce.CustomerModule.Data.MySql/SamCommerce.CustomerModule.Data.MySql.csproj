@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="SamCommerce.CoreModule.Core" Version="1.0.2" />
-    <PackageReference Include="SamCommerce.Platform.Core" Version="1.0.6" />
-  </ItemGroup>
-
 </Project>
