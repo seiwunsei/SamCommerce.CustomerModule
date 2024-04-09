@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.CustomerModule.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.CustomerModule.Data.MySql", "SamCommerce.CustomerModule.Data.MySql\SamCommerce.CustomerModule.Data.MySql.csproj", "{D7892978-BE81-4132-BEA7-E2030E3D0203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamCommerce.CustomerModule.Web", "SamCommerce.CustomerModule.Web\SamCommerce.CustomerModule.Web.csproj", "{276366F0-D10C-40FE-A3D1-DF9AC9CC9C87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{D7892978-BE81-4132-BEA7-E2030E3D0203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7892978-BE81-4132-BEA7-E2030E3D0203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7892978-BE81-4132-BEA7-E2030E3D0203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276366F0-D10C-40FE-A3D1-DF9AC9CC9C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276366F0-D10C-40FE-A3D1-DF9AC9CC9C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276366F0-D10C-40FE-A3D1-DF9AC9CC9C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276366F0-D10C-40FE-A3D1-DF9AC9CC9C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{A426274D-58A3-4800-A80C-0F6184516012} = {29136062-2AFD-4BEA-BAFF-65F076E5EB54}
 		{F4622C3D-4BB1-4730-AAF6-15CBF4AB5A32} = {29136062-2AFD-4BEA-BAFF-65F076E5EB54}
 		{D7892978-BE81-4132-BEA7-E2030E3D0203} = {29136062-2AFD-4BEA-BAFF-65F076E5EB54}
+		{276366F0-D10C-40FE-A3D1-DF9AC9CC9C87} = {29136062-2AFD-4BEA-BAFF-65F076E5EB54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4938D045-8A06-4DAA-B8F3-B30E777F8411}

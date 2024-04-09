@@ -155,17 +155,17 @@ namespace SamCommerce.CustomerModule.Data.Repositories
             base.OnModelCreating(modelBuilder);
 
             // Allows configuration for an entity type for different database types.
-            // Applies configuration from all <see cref="IEntityTypeConfiguration{TEntity}" in VirtoCommerce.CustomerModule.Data.XXX project. /> 
+            // Applies configuration from all <see cref="IEntityTypeConfiguration{TEntity}" in SamCommerce.CustomerModule.Data.XXX project. /> 
             switch (this.Database.ProviderName)
             {
                 case "Pomelo.EntityFrameworkCore.MySql":
-                    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("VirtoCommerce.CustomerModule.Data.MySql"));
+                    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("SamCommerce.CustomerModule.Data.MySql"));
                     break;
                 case "Npgsql.EntityFrameworkCore.PostgreSQL":
-                    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("VirtoCommerce.CustomerModule.Data.PostgreSql"));
+                    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("SamCommerce.CustomerModule.Data.PostgreSql"));
                     break;
                 case "Microsoft.EntityFrameworkCore.SqlServer":
-                    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("VirtoCommerce.CustomerModule.Data.SqlServer"));
+                    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("SamCommerce.CustomerModule.Data.SqlServer"));
                     break;
             }
         }

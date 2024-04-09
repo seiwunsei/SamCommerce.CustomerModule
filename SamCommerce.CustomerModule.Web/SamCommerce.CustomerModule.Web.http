@@ -1,0 +1,6 @@
+@SamCommerce.CustomerModule.Web_HostAddress = http://localhost:5218
+
+GET {{SamCommerce.CustomerModule.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
